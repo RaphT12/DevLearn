@@ -1,0 +1,20 @@
+@use "reset.scss";
+@use "../pages/header";
+@use "../pages/avecnous";
+@use "../pages/recommandation";
+@use "../pages/compte";
+@use "../pages/footer";
+
+body {
+  background-color: #eceff4;
+};
+
+h2{
+    font-family: "Kalam", cursive;
+    font-size: 35px;
+};
+
+h3 {
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+}

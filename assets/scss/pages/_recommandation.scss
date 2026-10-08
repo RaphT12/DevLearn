@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+@use "../modules/bouton" as *;
+@use "../modules/cardrecommandation";
+
+
+.Il_recommande {
+    background-color: $white;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .card_recommandation {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+}

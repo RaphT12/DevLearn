@@ -1,0 +1,76 @@
+@use "../abstracts" as *;
+@use "../modules/bouton" as *;
+
+header{
+    background-color: $gray;
+    position: relative;
+    min-height: 100dvh;
+    border-bottom-left-radius: 80px;
+
+    .icone_header_ordi {
+        position: absolute;
+        right: 5%;
+        top: 1%;
+
+        .ordinateur_header{
+            position: relative;
+            width: 800px;
+            height: 800px;
+
+            .tache {
+                position: absolute;
+                width: 800px;
+                height: 800px;
+                z-index: 0;
+                top: 0;
+                right: 0;
+            };
+
+                .ordi {
+                position: absolute;
+                width: 550px;
+                height: 550px;
+                z-index: 1;
+                top: 30px;
+                left: 100px;
+                margin-left: 0;
+            };
+        };
+    };
+
+    .titre_header{
+        h1{
+            @include titre_h1();
+            position: relative;
+            top: 100px;
+            margin-left: 30px;
+        };
+
+        p{
+            color: $primary-color;
+            font-family: $text;
+            position: relative;
+            top: 95px;
+            margin-left: 80px;
+            font-size: 20px;
+            font-weight: 100;
+        };
+    }
+
+    .text_description {
+        color: $SecondaryBg;
+        font-family: $text;
+        position: relative;
+        top: 340px;
+        width: 350px;
+        margin-left: 60px;
+        font-size: 25px;
+        font-weight: 100;
+    };
+
+    .boutons{
+        position: relative;
+        top: 460px;
+        margin-left: 60px; 
+    };
+};

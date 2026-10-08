@@ -1,0 +1,17 @@
+@use "../abstracts" as *;
+@use "../modules/bouton" as *;
+@use "../modules/cardexpertise";
+
+.card_expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: center;
+
+    .box{
+        box-shadow:
+            -15px -15px 23px rgb(255, 255, 255),
+            15px 15px 23px rgb(179, 179, 179);
+        }
+}

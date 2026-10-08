@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+
+.boutons{
+    background-color: $primary-color;
+    width: 210px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    .text_bouton {
+        background-color: $white;
+        height: 50px;
+        width: 150px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "inter", sans-serif;
+        font-size: 15px;
+    }
+    
+    .fleche {
+        color: $white;
+        font-size: 40px;
+    }
+};

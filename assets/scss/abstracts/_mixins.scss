@@ -1,0 +1,15 @@
+@use "_variables.scss" as *;
+
+@mixin titre_h1{
+    color: $white;
+    font-family: $titre;
+    font-size: 50px;
+}
+
+@mixin card{
+    background-color: $bg;
+    border-radius: 20px;
+    box-shadow:
+        -15px -15px 23px rgb(255, 255, 255),
+        15px 15px 23px rgb(179, 179, 179);
+}
