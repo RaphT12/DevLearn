@@ -54,4 +54,32 @@
             }
         }
     }
+
+    @include responsive(mobile){
+        width: 80%;
+        padding: 20px;
+        margin: 100px auto;
+
+        .Avec_nous_gauche{
+            .desc_gauche{
+                width: 100%;
+                font-size: 14px;
+            }
+
+            .liste_check{
+                margin-top: 40px;
+
+                li{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .Avec_nous_droit{
+            img{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
 }

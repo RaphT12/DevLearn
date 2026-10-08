@@ -117,4 +117,55 @@ header{
         }
     }
 
+    @include responsive(mobile){
+        height: 200px;
+        border-bottom-left-radius: 40px;
+
+        .icone_header_ordi {
+            right: 30%;
+            top: 25%;
+
+            .ordinateur_header {
+                width: 280px;
+                height: 250px;
+
+                .tache {
+                    width: 260px;
+                    height: 260px;
+                }
+                .ordi {
+                    width: 200px;
+                    height: 200px;
+                    top: 0px;
+                    left: 60px;
+                }
+            }
+        }
+        .titre_header{
+            h1{
+                font-size: 35px;
+                line-height: 36px;
+                margin-left: 20px;
+                top: 50px;
+            }
+            p{
+                font-size: 16px;
+                margin-left: 20px;
+                top: 70px;
+            }
+        }
+
+        .text_description{
+            font-size: 18px;
+            width: 280px;
+            margin-left: 20px;
+            top: 450px;
+        }
+
+        .boutons{
+            top: 600px;
+            margin-left: 20px;
+        }
+    }
+
 };
