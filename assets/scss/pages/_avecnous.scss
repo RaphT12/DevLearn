@@ -42,4 +42,16 @@
             border-radius: 15px; 
         }
     }
+
+    @include responsive(tablet){
+        flex-direction: column;
+
+        .Avec_nous_droit{
+            img{
+                width: 100%;
+                margin-top: 40px;
+                border-radius: 15px;
+            }
+        }
+    }
 }

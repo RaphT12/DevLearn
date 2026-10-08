@@ -26,7 +26,7 @@ header{
                 right: 0;
             };
 
-                .ordi {
+            .ordi {
                 position: absolute;
                 width: 550px;
                 height: 550px;
@@ -73,4 +73,48 @@ header{
         top: 460px;
         margin-left: 60px; 
     };
+
+    @include responsive(tablet){
+        .icone_header_ordi {
+            right: 20%;
+            top: 27%;
+
+            .ordinateur_header {
+                width: 430px;
+                height: 200px;
+
+                .tache {
+                    width: 350px;
+                    height: 350px;
+                }
+                .ordi {
+                    width: 280px;
+                    height: 280px;
+                    top: -10px;
+                }
+            }
+        }
+        .titre_header{
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+                margin-left: 50px;
+            }
+            p{
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+        }
+
+        .text_description{
+            top: 500px;
+        }
+
+        .boutons{
+            position: relative;
+            top: 560px;
+            margin-left: 60px;
+        }
+    }
+
 };

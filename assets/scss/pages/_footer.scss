@@ -57,4 +57,24 @@ footer{
             }
         }
     }
+
+    @include responsive(tablet){
+        height: 800px;
+
+        .footer{
+            flex-direction: column-reverse;
+
+            .footer_droit{
+                gap: 100px;
+
+                h1{
+                    margin-left: 40px;
+	                line-height: 55px;
+                }
+                .footer_bas{
+                    width: 650px;
+                }
+            }
+        }
+    }
 }

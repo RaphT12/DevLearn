@@ -20,4 +20,10 @@
         margin-bottom: 70px;
     }
 
+    @include responsive(tablet){
+        .card{
+            margin-top: 70px;
+        }
+    }
+
 }
